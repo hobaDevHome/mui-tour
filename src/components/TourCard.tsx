@@ -42,11 +42,6 @@ interface Tour {
   image: string;
 }
 
-// const TodoItem: React.FC<{
-//   task: ITask;
-//   onComplete: (text: string) => void;
-// }> = (props) => {
-
 const TourCard: React.FC<{ tour: Tour }> = (props) => {
   return (
     <Grid item xs={3}>
